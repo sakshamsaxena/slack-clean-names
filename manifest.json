@@ -1,0 +1,23 @@
+{
+    "name": "Saving Slack",
+    "version": "0.1",
+    "description": "Makes Slack usable, finally.",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://app.slack.com/client/*"
+            ],
+            "js": [
+                "jquery-2.2.4.min.js",
+                "content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "manifest_version": 2
+}
