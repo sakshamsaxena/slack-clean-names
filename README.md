@@ -13,3 +13,11 @@ This extension would continually update any channel name or person name from __f
 ## But really ?
 
 Yes. Desperate times, desperate measures.
+
+## Setting Up
+
+1. Download this as ZIP or clone this repo.
+2. Go to Chrome/Chromium based browser's Extensions page (something like `chrome://extensions`)
+3. Enable Developer Mode
+4. Select `Load Unpacked` and select this extracted folder.
+5. Done!
